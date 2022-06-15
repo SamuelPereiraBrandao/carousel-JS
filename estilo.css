@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  color: #333;
+}
+a:hover {
+  color: #A31925;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #333;
+  font-weight: 700;
+  -webkit-text-decoration: underline solid rgb(68, 68, 68);
+          text-decoration: underline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+h1:hover {
+  color: #A31925;
+}
+
+.carrossel {
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 50px -50px 0px -30px rgba(0, 0, 0, 0);
+}
+.carrossel:hover {
+  box-shadow: 0px 0px 0px 5px #A31925, inset 0px 10px 27px -8px #A31925, inset 0px -10px 27px -8px #A31925, 50px -50px 0px -30px rgba(255, 0, 0, 0);
+}
+.carrossel .container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+.carrossel img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+  width: 500px;
+}/*# sourceMappingURL=estilo.css.map */
