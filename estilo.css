@@ -36,6 +36,7 @@ h1:hover {
   overflow: hidden;
   height: 500px;
   width: 500px;
+  border-radius: 10px;
   box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 50px -50px 0px -30px rgba(0, 0, 0, 0);
 }
 .carrossel:hover {
@@ -74,14 +75,14 @@ h1:hover {
 .bar {
   width: 70px;
   height: 25px;
-  border: 2px solid white;
+  border: 2px solid #A31925;
   margin: 6px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.4s;
 }
 .bar:hover {
-  background: rgba(187, 187, 201, 0.733);
+  background: #A31925;
 }
 
 input {
